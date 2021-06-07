@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Calculator GeekBrains</string>
+    <string name="dotbutton">.</string>
+    <string name="zerobutton">0</string>
+    <string name="erasebutton">C</string>
+    <string name="rightbracketbutton">)</string>
+    <string name="leftbracketbutton">(</string>
+    <string name="equalbutton">=</string>
+    <string name="buttonone">1</string>
+    <string name="buttontwo">2</string>
+    <string name="buttonthree">3</string>
+    <string name="buttonfour">4</string>
+    <string name="buttonfive">5</string>
+    <string name="buttonsix">6</string>
+    <string name="buttonseven">7</string>
+    <string name="buttoneight">8</string>
+    <string name="buttonnine">9</string>
+    <string name="buttondevide">/</string>
+    <string name="buttonmultiply">X</string>
+    <string name="buttonsubstraction">-</string>
+    <string name="buttonadd">+</string>
+
+    <string name="input"></string>
+    <string name="resultfield"></string>
+
+    <string name="sighbutton">+/-</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainborder">10dp</dimen>
+    <dimen name="buttonsmargin">8dp</dimen>
+    <dimen name="radiusbuttonsandfield">20dp</dimen>
+    <dimen name="inputtextsize">85sp</dimen>
+    <dimen name="resultfieldfontsize">60sp</dimen>
+    <dimen name="numbersfontsize">32sp</dimen>
+
+</resources>
