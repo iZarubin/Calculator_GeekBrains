@@ -20,8 +20,10 @@
     <string name="buttonsubstraction">-</string>
     <string name="buttonadd">+</string>
 
-    <string name="input"></string>
-    <string name="resultfield"></string>
+<!--    <string name="input">""</string>-->
+<!--    <string name="resultfield">""</string>-->
 
     <string name="sighbutton">+/-</string>
+    <string name="resultfield">""</string>
+
 </resources>

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="@drawable/backgroundtotal"
 
     tools:context=".MainActivity">
@@ -15,18 +14,19 @@
         android:layout_height="match_parent"
         android:layout_margin="@dimen/mainborder"
         android:background="@drawable/textfield"
+
         app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintHorizontal_weight="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/buttons"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_weight="1">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/inputfield"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginHorizontal="@dimen/buttonsmargin"
-            android:text="@string/input"
+            app:autoSizeTextType="uniform"
             android:textAlignment="viewEnd"
             android:textColor="@color/white"
             android:textSize="@dimen/inputtextsize"
@@ -39,23 +39,22 @@
         <androidx.constraintlayout.utils.widget.MockView
             android:id="@+id/mockView"
             android:layout_width="match_parent"
-            app:layout_constraintTop_toBottomOf="@id/inputfield"
-            app:layout_constraintBottom_toTopOf="@id/resultfield"
+            android:layout_height="@dimen/buttonsmargin"
             android:background="@color/background"
-            android:layout_height="@dimen/buttonsmargin" />
+            app:layout_constraintBottom_toTopOf="@id/resultfield"
+            app:layout_constraintTop_toBottomOf="@id/inputfield" />
 
         <TextView
             android:id="@+id/resultfield"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginHorizontal="@dimen/buttonsmargin"
-            android:text="@string/resultfield"
-            app:layout_constraintTop_toBottomOf="@id/mockView"
             android:textAlignment="viewEnd"
             android:textColor="@color/white"
             android:textSize="@dimen/resultfieldfontsize"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mockView"
             app:layout_constraintVertical_weight="1" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -67,10 +66,10 @@
         android:layout_height="match_parent"
         android:layout_margin="@dimen/mainborder"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_weight="1"
         app:layout_constraintLeft_toRightOf="@id/fields"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_weight="1">
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <androidx.appcompat.widget.AppCompatButton
